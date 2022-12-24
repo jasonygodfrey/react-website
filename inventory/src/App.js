@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import ReactPlayer from 'react-player';
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
+      <ReactPlayer url='https://www.twitch.tv/xrecursionx' width='1280px' height='720px' />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          welcome to my website 
+
         </p>
         <a
           className="App-link"
@@ -15,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          external link
         </a>
       </header>
     </div>
